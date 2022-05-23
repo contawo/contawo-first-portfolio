@@ -704,6 +704,7 @@ body {
   font-size: 1.2rem;
   font-family: var(--font-poppins);
   resize: none;
+  color: var(--tertiary-color);
 }
 
 .send-message {
@@ -711,6 +712,9 @@ body {
   align-items: center;
   gap: .5em;
   cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
 }
 
 .send-message > h1 {
@@ -796,3 +800,4 @@ body {
     margin-top: 2em;
   }
 }
+
