@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Navigation from '../components/Navigation';
 import { send } from "emailjs-com"
+import { NavLink } from "react-router-dom"
 
 const Contact = () => {
     const [userName, setUsername] = useState('');
@@ -32,13 +33,16 @@ const Contact = () => {
         setUserEmail('');
         setUserMessage('');
     }
+    const [condition, setCondition] = useState(false);
 
     return (
         <div className="contact">
             <Navigation/>
             <div className="main-contact">
                 <div className="contact-title">
-                    <i class="fa-solid fa-bars nav-button"></i>
+                    <i 
+                        class="fa-solid fa-bars nav-button"
+                        onClick={() => {setCondition(true)}}></i>
                     <h1>Contact</h1>
                 </div>
                 <form 
@@ -87,7 +91,32 @@ const Contact = () => {
                     </a>
                 </div>
             </div>
+            {condition ? (
+                <div className="mobileNavigation">
+                    {/* <div className="mobile-exit-button"
+                        onClick={() => {setCondition(false)}}><i class="fa-solid fa-person-walking-arrow-right"></i></div> */}
+                <div className="mobileNavLinks">
+                    <NavLink 
+                    onClick={() => {setCondition(false)}} 
+                    to='/' 
+                    className='mobileNavLink'>Home</NavLink> 
+                    <NavLink 
+                    onClick={() => {setCondition(false)}} 
+                    to='/about'
+                    className='mobileNavLink'>About</NavLink> 
+                    <NavLink 
+                    onClick={() => {setCondition(false)}} 
+                    to='/projects'
+                    className='mobileNavLink'>Projects</NavLink> 
+                    <NavLink 
+                    onClick={() => {setCondition(false)}} 
+                    to='/contact'
+                    className='mobileNavLink'>Contact</NavLink>
+                </div>
+                </div>
+            ): <></>}
         </div>
+        
     )
 };
 

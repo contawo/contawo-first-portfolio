@@ -1,26 +1,16 @@
 import React from "react";
 import Navigation from "../components/Navigation";
 import { Link } from 'react-router-dom';
-import {PDFDownloadLink} from "@react-pdf/renderer";
-import "../CV.pdf";
 
 const Projects = () => {
     return (
         <div className="projects">
             <Navigation/>
             <div className='main-proj'>
-                <PDFDownloadLink document={"../CV.pdf"} fileName="awonke_resume.pdf">
-                    {({loading}) => loading ? (<button>Loading...</button>) : (
-                        <div className='cv'>
-                        <i class="fa-solid fa-share"></i>
-                        <h1>Resume</h1>
-                    </div>
-                    )}
-                </PDFDownloadLink>
-                <div className='cv'>
+                <a href="https://www.docdroid.net/fGnVE4p/cv-pdf" target="_blank" rel="noopener noreferrer" className='cv'>
                     <i class="fa-solid fa-share"></i>
                     <h1>Resume</h1>
-                </div>
+                </a>
                 <div className='col-proj one'>
                     <div className='proj-item'>
                         <img src='./images/bg.jpg' alt="project-item"/>
@@ -51,10 +41,10 @@ const Projects = () => {
                 </div>
                 <div className='col-proj three'>
                     <div className='download'>
-                        <div className='resume'>
+                        <a href="https://www.docdroid.net/fGnVE4p/cv-pdf" target="_blank" rel="noopener noreferrer" className='resume'>
                             <i class="fa-solid fa-share"></i>
                             <h1>Resume</h1>
-                        </div>
+                        </a>
                         <h1>Projects</h1>
                     </div>
                     <div className='proj-item'>
