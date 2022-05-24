@@ -10,7 +10,7 @@ const About = () => {
                 <div className="about-content">
                     <h1>What I do?</h1>
                     <p>I am from South Africa, I create websites with design and code. Passionate with what I do and love working with other people.</p>
-                    <a href='https://fontawesome.com/' className='blog-button'>
+                    <a href='https://fontawesome.com/' className='blog-button' target="_blank" rel="noopener noreferrer">
                         <h1>Check out my blog</h1>
                     </a>
                 </div>
