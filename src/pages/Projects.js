@@ -1,12 +1,22 @@
 import React from "react";
 import Navigation from "../components/Navigation";
 import { Link } from 'react-router-dom';
+import {PDFDownloadLink} from "@react-pdf/renderer";
+import "../CV.pdf";
 
 const Projects = () => {
     return (
         <div className="projects">
             <Navigation/>
             <div className='main-proj'>
+                <PDFDownloadLink document={"../CV.pdf"} fileName="awonke_resume.pdf">
+                    {({loading}) => loading ? (<button>Loading...</button>) : (
+                        <div className='cv'>
+                        <i class="fa-solid fa-share"></i>
+                        <h1>Resume</h1>
+                    </div>
+                    )}
+                </PDFDownloadLink>
                 <div className='cv'>
                     <i class="fa-solid fa-share"></i>
                     <h1>Resume</h1>

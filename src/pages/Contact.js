@@ -76,10 +76,10 @@ const Contact = () => {
                     </div>
                 </form>
                 <div className="socials">
-                    <a href='/' className="social">
+                    <a href='https://www.instagram.com/aj_mnotoza/' className="social">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
-                    <a href='/' className="social">
+                    <a href='https://wa.me/0636672687' className="social">
                         <i class="fa-brands fa-whatsapp"></i>
                     </a>
                     <a href='/' className="social">
