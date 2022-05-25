@@ -13,7 +13,7 @@ const Projects = () => {
                 </a>
                 <div className='col-proj one'>
                     <div className='proj-item'>
-                        <img src='./images/bg.jpg' alt="project-item"/>
+                        <img src='./images/compressed/back.jpg' alt="project-item"/>
                         <h2>Title</h2>
                         <p>bnxdvbsdJKVb V jdbv bdvs jbivdSV hvcdzVSD jhvvdjKBV sdvkbsdV</p>
                         <div className='proj-links'>
@@ -29,7 +29,7 @@ const Projects = () => {
                 </div>
                 <div className='col-proj two'>
                     <div className='proj-item'>
-                    <img src='./images/bg.jpg' alt="project-item"/>
+                    <img src='./images/compressed/back.jpg' alt="project-item"/>
                         <h2>Title</h2>
                         <p>bnxdvbsdJKVb V jdbv bdvs jbivdSV hvcdzVSD jhvvdjKBV sdvkbsdV</p>
                         <div className='proj-links'>
@@ -48,7 +48,7 @@ const Projects = () => {
                         <h1>Projects</h1>
                     </div>
                     <div className='proj-item'>
-                    <img src='./images/bg.jpg' alt="project-item"/>
+                    <img src='./images/compressed/back.jpg' alt="project-item"/>
                         <h2>Title</h2>
                         <p>bnxdvbsdJKVb V jdbv bdvs jbivdSV hvcdzVSD jhvvdjKBV sdvkbsdV</p>
                         <div className='proj-links'>
