@@ -30,7 +30,6 @@ html, body {
   display: flex;
   width: 100%;
   height: 100vh;
-  
 }
 
 .nav-button {
@@ -667,6 +666,7 @@ html, body {
   .proj-item {
     height: 100%;
     padding: 1em;
+    gap: 1em;
   }
 
   .one,
@@ -891,3 +891,56 @@ html, body {
   }
 }
 
+/** ------ Responsiveness for mobile with less height  */
+@media screen and (max-height: 560px) {
+  .home, 
+  .about, 
+  .contact, 
+  .projects {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+  }
+
+  /*^------ Home ---------- */
+  .ui-design {
+    height: 100%;
+  }
+
+  /*^------ About ---------- */
+  .about {
+    height: 97vh;
+  }
+
+  .blog-button {
+    padding: .1em;
+    margin: .1em;
+    margin-top: .3em;
+  }
+
+  .blog-button > h1 {
+    font-size: 1rem;
+    padding: .5em;
+  }
+
+  .about-content > h1 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+
+  .about-content > p {
+    font-size: .85rem;
+  }
+
+  /*^------ Projects ---------- */
+  .proj-item {
+    height: 100%;
+    gap: 1em;
+  }
+
+  /*^------ Contact ---------- */
+  .text-input > input {
+    padding: .5em;
+    border-radius: 10px 0px 0px 10px;
+  }
+}
