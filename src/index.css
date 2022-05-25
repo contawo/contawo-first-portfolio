@@ -726,7 +726,7 @@ html, body {
 .text-message {
   display: flex;
   align-items: center;
-  gap: 1em;
+  gap: 2em;
   height: 40%;
 }
 
@@ -828,6 +828,10 @@ html, body {
 
   .send-message > h1 {
     display: none;
+  }
+
+  .text-message {
+    gap: 2em;
   }
 
   .text-message > textarea {
