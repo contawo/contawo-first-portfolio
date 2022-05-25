@@ -569,7 +569,7 @@ html, body {
   box-shadow: 0px 4px 25px 10px #000000;
   border-radius: 20px;
   height: 60%;
-  padding: 1em;
+  padding: 3em;
 
   display: flex;
   flex-direction: column;
@@ -584,11 +584,36 @@ html, body {
 .proj-item > h2 {
   color: var(--tertiary-color);
   font-family: var(--font-permanent);
+  color: var(--secondary-color);
 }
 
 .proj-item > p {
   color: var(--tertiary-color);
   font-family: var(--font-poppins);
+}
+
+.proj-tools {
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+}
+
+.proj-tools > h1 {
+  font-family: var(--font-permanent);
+  color: var(--tertiary-color);
+  font-size: 1.5em;
+  color: var(--secondary-color);
+}
+
+.proj-tools-item {
+  display: flex;
+  gap: .4em;
+  align-items: center;
+}
+
+.proj-tools-item > i {
+  font-size: 2rem;
+  color: var(--tertiary-color)
 }
 
 .proj-links {
@@ -633,7 +658,7 @@ html, body {
   .main-proj {
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 3.5em;
     padding-top: 1.5em;
     margin: 0;
     margin-right: 2em;
@@ -641,6 +666,7 @@ html, body {
 
   .proj-item {
     height: 100%;
+    padding: 1em;
   }
 
   .one,

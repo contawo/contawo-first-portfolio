@@ -13,11 +13,21 @@ const Projects = () => {
                 </a>
                 <div className='col-proj one'>
                     <div className='proj-item'>
-                        <img src='./images/compressed/back.jpg' alt="project-item"/>
+                        {/* <img src='./images/compressed/back.jpg' alt="project-item"/> */}
                         <h2>Title</h2>
                         <p>bnxdvbsdJKVb V jdbv bdvs jbivdSV hvcdzVSD jhvvdjKBV sdvkbsdV</p>
+                        <div className='proj-tools'>
+                            <h1>Tools</h1>
+                            <div className='proj-tools-item'>
+                                <i class="fa-brands fa-react"></i>
+                                <i class="fa-brands fa-python"></i>
+                                <i class="fa-brands fa-html5"></i>
+                                <i class="fa-brands fa-css3"></i>
+                                <i class="fa-brands fa-js"></i>
+                            </div>
+                        </div>
                         <div className='proj-links'>
-                            <i class="fa-solid fa-images"></i>
+                            <i class="fa-brands fa-figma"></i>
                             <i class="fa-solid fa-code"></i>
                             <i class="fa-solid fa-eye"></i>
                         </div>
@@ -29,11 +39,21 @@ const Projects = () => {
                 </div>
                 <div className='col-proj two'>
                     <div className='proj-item'>
-                    <img src='./images/compressed/back.jpg' alt="project-item"/>
+                    {/* <img src='./images/compressed/back.jpg' alt="project-item"/> */}
                         <h2>Title</h2>
                         <p>bnxdvbsdJKVb V jdbv bdvs jbivdSV hvcdzVSD jhvvdjKBV sdvkbsdV</p>
+                        <div className='proj-tools'>
+                            <h1>Tools</h1>
+                            <div className='proj-tools-item'>
+                                <i class="fa-brands fa-react"></i>
+                                <i class="fa-brands fa-python"></i>
+                                <i class="fa-brands fa-html5"></i>
+                                <i class="fa-brands fa-css3"></i>
+                                <i class="fa-brands fa-js"></i>
+                            </div>
+                        </div>
                         <div className='proj-links'>
-                            <i class="fa-solid fa-images"></i>
+                            <i class="fa-brands fa-figma"></i>
                             <i class="fa-solid fa-code"></i>
                             <i class="fa-solid fa-eye"></i>
                         </div>
@@ -48,11 +68,21 @@ const Projects = () => {
                         <h1>Projects</h1>
                     </div>
                     <div className='proj-item'>
-                    <img src='./images/compressed/back.jpg' alt="project-item"/>
+                    {/* <img src='./images/compressed/back.jpg' alt="project-item"/> */}
                         <h2>Title</h2>
                         <p>bnxdvbsdJKVb V jdbv bdvs jbivdSV hvcdzVSD jhvvdjKBV sdvkbsdV</p>
+                        <div className='proj-tools'>
+                            <h1>Tools</h1>
+                            <div className='proj-tools-item'>
+                                <i class="fa-brands fa-react"></i>
+                                <i class="fa-brands fa-python"></i>
+                                <i class="fa-brands fa-html5"></i>
+                                <i class="fa-brands fa-css3"></i>
+                                <i class="fa-brands fa-js"></i>
+                            </div>
+                        </div>
                         <div className='proj-links'>
-                            <i class="fa-solid fa-images"></i>
+                            <i class="fa-brands fa-figma"></i>
                             <i class="fa-solid fa-code"></i>
                             <i class="fa-solid fa-eye"></i>
                         </div>
