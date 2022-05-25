@@ -748,7 +748,7 @@ html, body {
 .send-message {
   display: flex;
   align-items: center;
-  gap: .5em;
+  gap: 1.2em;
   cursor: pointer;
   background: none;
   border: none;
