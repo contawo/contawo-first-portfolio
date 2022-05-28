@@ -378,6 +378,7 @@ html, body {
   font-family: var(--font-poppins);
   font-weight: bold;
   margin-top: 1em;
+  margin-bottom: 1.5em;
 }
 
 .about-info {
