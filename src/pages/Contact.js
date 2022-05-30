@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Navigation from '../components/Navigation';
 import { send } from "emailjs-com"
 import { NavLink } from "react-router-dom"
+import Socials from '../components/Socials';
 
 const Contact = () => {
     const [userName, setUsername] = useState('');
@@ -79,17 +80,7 @@ const Contact = () => {
                             placeholder="Enter your email"/>
                     </div>
                 </form>
-                <div className="socials">
-                    <a href='https://www.instagram.com/aj_mnotoza/' className="social" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                    <a href='https://wa.me/0636672687' className="social" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-whatsapp"></i>
-                    </a>
-                    <a href='https://github.com/Awonke11' className="social" target="_blank" rel="noopener noreferrer">
-                    <i class="fa-brands fa-github"></i>
-                    </a>
-                </div>
+                <Socials/>
             </div>
             {condition ? (
                 <div className="mobileNavigation">

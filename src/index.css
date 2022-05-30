@@ -1,5 +1,5 @@
 :root {
-  --font-permanent: 'Permanent Marker', cursive;
+  --font-permanent: 'Poppins', sans-serif;
   --font-poppins: 'Poppins', sans-serif;
 
   --primary-color: #1C1C1C;
@@ -619,7 +619,7 @@ html, body {
 .proj-links {
   display: flex;
   justify-content: flex-end;
-  gap: .5em;
+  gap: 1em;
 }
 
 .proj-links > i {
@@ -636,13 +636,20 @@ html, body {
     display: none;
   }
 
+  .main-proj {
+    position: absolute;
+  }
+
   .cv {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 0.5em;
     cursor: pointer;
     text-decoration: none;
+  }
+
+  .cv > * {
+    margin: .2em;
   }
 
   .cv:hover {
@@ -660,8 +667,7 @@ html, body {
     flex-direction: column;
     gap: 3.5em;
     padding-top: 1.5em;
-    margin: 0;
-    margin-right: 2em;
+    margin: 0 2em 0 2em;
   }
 
   .proj-item {
@@ -887,6 +893,7 @@ html, body {
     color: var(--tertiary-color);
     font-family: var(--font-permanent);
     font-size: 1.5rem;
+    font-weight: bold;
   }
 
   .active {
