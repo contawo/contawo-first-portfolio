@@ -26,7 +26,7 @@ const Contact = () => {
             {userName, userMessage, userEmail},
             'DFfU6nD-YpIx8JyA7'
         ).then(response => {
-            alert("Email recieved")
+            alert("Email recieved, you will receive a confirmation email 😂")
         }).catch(err => {
             alert("Email failed to send")
         })
