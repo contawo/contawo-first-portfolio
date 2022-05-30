@@ -15,7 +15,7 @@ const Projects = () => {
                 <div className='proj-item'>
                     {/* <img src='./images/compressed/back.jpg' alt="project-item"/> */}
                         <h2>Travel Journal</h2>
-                        <p>I was exploring the use of props in React and requesting data with fetch. I requested data from an API, that displays different qoutes everytime the browser reloads.</p>
+                        <p>I was exploring the use of props in React and requesting data with fetch. I requested data from an API, that displays different qoutes everytime the browser reloads. Site is broken, please also view video to see quotes.</p>
                         <div className='proj-tools'>
                             <h1>Tools</h1>
                             <div className='proj-tools-item'>
@@ -33,8 +33,11 @@ const Projects = () => {
                             <a href='https://github.com/Awonke11/travel-journal' className='proj-link-to' target="_blank" rel="noopener noreferrer">
                                 <i class="fa-solid fa-code"></i>
                             </a>
-                            <a href='https://youtu.be/GEdTQrKpx3w' className='proj-link-to' target="_blank" rel="noopener noreferrer">
+                            <a href='https://travel-journal-site.netlify.app/' className='proj-link-to' target="_blank" rel="noopener noreferrer">
                                 <i class="fa-solid fa-eye"></i>
+                            </a>
+                            <a href='https://youtu.be/GEdTQrKpx3w' className='proj-link-to' target="_blank" rel="noopener noreferrer">
+                                <i class="fa-solid fa-video"></i>
                             </a>
                         </div>
                     </div>
@@ -102,7 +105,7 @@ const Projects = () => {
                                 <i class="fa-solid fa-code"></i>
                             </a>
                             <a href='https://youtu.be/GF1nczvV1jk' className='proj-link-to' target="_blank" rel="noopener noreferrer">
-                                <i class="fa-solid fa-eye"></i>
+                                <i class="fa-solid fa-video"></i>
                             </a>
                         </div>
                     </div>
