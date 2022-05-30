@@ -16,7 +16,10 @@ const Home = () => {
                         <h2>Full-Time Student</h2>
                     </div>
                     <div className='home-title'>
-                        <h1>Home</h1>
+                        <a href="https://www.figma.com/file/gvCz4hK6cgoxVewcGaq17X/My-Profile-Design?node-id=0%3A1" target="_blank" rel="noopener noreferrer" className='resume'>
+                            <i class="fa-brands fa-figma"></i>
+                            <h1>Figma</h1>
+                        </a>
                     </div>
                 </div>
                 <div className='awonke-title-mobile'>
