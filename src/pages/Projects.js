@@ -30,7 +30,7 @@ const Projects = () => {
                             <a href='https://www.figma.com/file/bXdJf6E7HoDh64N927Er3x/Travel-Journal?node-id=0%3A1' className='proj-link-to' target="_blank" rel="noopener noreferrer">
                                 <i class="fa-brands fa-figma"></i>
                             </a>
-                            <a href='https://github.com/Awonke11/travel-journal-project' className='proj-link-to' target="_blank" rel="noopener noreferrer">
+                            <a href='https://github.com/Awonke11/travel-journal' className='proj-link-to' target="_blank" rel="noopener noreferrer">
                                 <i class="fa-solid fa-code"></i>
                             </a>
                             <a href='https://youtu.be/GEdTQrKpx3w' className='proj-link-to' target="_blank" rel="noopener noreferrer">
